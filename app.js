@@ -25,7 +25,6 @@ module.exports = class HomepageApiApp extends Homey.App {
   async getInfo(params) {
     const info = await this.homeyApi.system.getInfo();
     const storage = await this.homeyApi.system.getStorageInfo();
-    // this.log(`getInfo received: ${JSON.stringify(storage)}`);
     return {
       cpu: `${((info.loadavg[0] / info.cpus.length) * 100).toFixed(0)} %`,
       mem: `${((100 / info.totalmem) * (info.totalmem - info.freemem)).toFixed(0)} %`,

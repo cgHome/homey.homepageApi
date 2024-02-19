@@ -1,3 +1,3 @@
-Because the system information (cpu, mem, etc) is only accessible via the web API, I need the authorization: "homey:manager:api".
+Sorry about the authorization but since the system information (CPU, memory, etc.) is only accessible via the web API, I need the permission: "homey:manager:api"  
 
-Da die Systeminformationen (CPU, Arbeitsspeicher, usw.) nur über die Web-API zugänglich sind, benötige ich die Berechtigung: "homey:manager:api"  
+Sorry wegen der Berechtigung aber da die Systeminformationen (CPU, Arbeitsspeicher, usw.) nur über die Web-API zugänglich sind, benötige ich die Berechtigung: "homey:manager:api"
