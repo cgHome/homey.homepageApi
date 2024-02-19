@@ -11,7 +11,7 @@
     "en": "homepageApi"
   },
   "description": {
-    "en": "Adds support for homepage widget"
+    "en": "Adds support for homepage homey-widget"
   },
   "category": [
     "tools"
@@ -29,6 +29,7 @@
     "name": "Chris Gross",
     "email": "cgHome@cflat-inc.org"
   },
+  "homeyCommunityTopicId": 104370,
   "api": {
     "getInfo": {
       "description": "homepage widget status",
